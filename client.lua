@@ -8,7 +8,7 @@ Citizen.CreateThread(function()
 		TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 		Citizen.Wait(0)
 
-	TriggerEvent('chat:addSuggestion', '/mdtpd', ' Terminal de Datos movil Policial', {})	
+	TriggerEvent('chat:addSuggestion', '/mdtpd', ' Police Mobile Data Terminal', {})	
 	end
 
 
@@ -93,7 +93,7 @@ SetNuiFocus(true, true)
 
 
 else
-	exports['mythic_notify']:DoCustomHudText('cajaroja', ' No eres policia o estas en servicio para usar este comando ',3500)
+	exports['mythic_notify']:DoCustomHudText('cajaroja', ' You are not a police officer or you are not in service to use this command ',3500)
 end
 
 
